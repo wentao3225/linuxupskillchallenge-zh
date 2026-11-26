@@ -98,7 +98,7 @@ The notes assume Ubuntu Server LTS (latest version) and it would be messy to inc
 
 But if you choose RedHat-based distros (Fedora, CentOS, AlmaLinux) or distros like Arch, Gentoo, OpenSUSE, you yourself will need to understand and cope with any differences (e.g. apt vs yum vs pacman).
 
-If none of those names make any sense to you, you shouldn't be picking distros. Go read [Linux Journey](https://linuxjourney.com/lesson/linux-history) first lesson instead.
+If none of those names make any sense to you, you shouldn't be picking distros. Go read [Linux Journey](https://labex.io/lesson/linux-history) first lesson instead.
 
 ### I already use [my own flavour of linux], how can I participate?
 

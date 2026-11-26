@@ -11,7 +11,7 @@ Refer to [Day 0 - Get Your Own Server](https://linuxupskillchallenge.org/00) to 
 
 **TIP**: check out the walk-though in the [complementary video](https://www.youtube.com/live/_-6UYOjRIVQ). This video covers a lot of possible setups (local server with VirtualBox, AWS, Digital Ocean, Azure, Linode, Google Cloud, Vultr and Oracle Cloud) and can help you choose.
 
-## Signing up with a VPS
+## Signing up with a VPS { #intro }
 
 Sign-up is fairly simple - just provide your email address and a password of your choosing - along with a phone number for a 2FA or another second method of authentication. You will need to also provide your credit card information.
 

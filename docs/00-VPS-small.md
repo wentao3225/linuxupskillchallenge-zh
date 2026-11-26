@@ -18,9 +18,9 @@ Sign-up is immediate - just provide your email address and a password of your ch
 ### Comparison
 | Provider      | Instance Type           | vCPU | Memory | Storage   | Price | Trial Credits  |
 | ------------- | ----------------------- | ---- | ------ | --------- | ----- | -------------- |
-| [Digital Ocean](https://m.do.co/c/0543704a0b92) | Basic Plan              | 1    | 1 GB   | 25 GB SSD | $6.00 | $200 / 60 days |
-| [Linode](https://www.linode.com/lp/refer/?r=5f3727944be972fe99747977e0a25fc21390c5d0)        | Nanode 1GB              | 1    | 1 GB   | 25 GB SSD | $5.00 | $100 / 60 days |
-| [Vultr](https://www.vultr.com/vultr-vs-linode/?promo=LINODE150)         | Cloud Compute - Regular | 1    | 1 GB   | 25 GB SSD | $5.00 | $250 / 30 days |
+| [Digital Ocean](https://www.digitalocean.com/) | Basic Plan              | 1    | 1 GB   | 25 GB SSD | $6.00 | $200 / 60 days |
+| [Linode](https://www.linode.com/)        | Nanode 1GB              | 1    | 1 GB   | 25 GB SSD | $5.00 | $100 / 60 days |
+| [Vultr](https://www.vultr.com/)         | Cloud Compute - Regular | 1    | 1 GB   | 25 GB SSD | $5.00 | $250 / 30 days |
 
 For more details:
 

@@ -159,10 +159,10 @@ Or click on _Force Shutdown_
 
 ## Some Other Options
 
-* [Install Linux on Windows with WSL](https://docs.microsoft.com/en-us/windows/wsl/install)
+* [Install Linux on Windows with WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
 * [Turn an old PC into a Linux server](https://dev.to/jayesh_w/this-is-how-i-turned-my-old-laptop-into-a-server-1elf)
 * [Install Ubuntu server on a Raspberry Pi](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview)
-* [Run Linux in a Docker container](https://hudsonmendes.medium.com/docker-have-a-ubuntu-development-machine-within-seconds-from-windows-or-mac-fd2f30a338e4)
+* [Run Linux in a Docker container](https://docs.docker.com/engine/containers/run/)
 
 
 **Now you are ready to start the challenge. [Day 1](https://linuxupskillchallenge.org/01), let's go!**

@@ -39,7 +39,7 @@ Select your instance and click "SSH", it will open a new window console. To acce
 
 ## Remote access via SSH
 
-You can also refer to <https://cloud.google.com/compute/docs/instances/connecting-advanced#thirdpartytools> if you intend to access your server via third-party tools (e.g. Putty).
+You can also refer to <https://cloud.google.com/compute/docs/connect/standard-ssh> if you intend to access your server via third-party tools (e.g. Putty).
 
 ## You are now a sysadmin
 
