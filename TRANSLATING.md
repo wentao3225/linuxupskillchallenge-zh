@@ -141,7 +141,7 @@
 ```markdown
 > **中文译本说明**：本页为 [Linux Upskill Challenge](https://linuxupskillchallenge.org/) 中文版，英文原文以
 > [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 发布，原作者 Steve Brorens，现由 Livia Lima 维护。
-> 译文与勘误亦以 CC BY 4.0 发布，详见 [TRANSLATING.md](https://github.com/<你的用户名>/<你的仓库名>/blob/master/TRANSLATING.md)。
+> 译文与勘误亦以 CC BY 4.0 发布，详见 [TRANSLATING.md](https://github.com/wentao3225/linuxupskillchallenge-zh/blob/master/TRANSLATING.md)。
 ```
 
 仓库 URL 在开源发布前替换成实际地址。

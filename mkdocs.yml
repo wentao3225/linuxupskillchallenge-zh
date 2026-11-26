@@ -1,18 +1,18 @@
 # Project information
 site_name: Linux Upskill Challenge
-site_url: https://linuxupskillchallenge.org/
+site_url: https://wentao3225.github.io/linuxupskillchallenge-zh/
 site_author: Livia Lima
 site_description: >-
   A month-long course aimed at those who aspire to get Linux-related jobs in the industry - junior Linux sysadmin, DevOps-related work, and similar.
   Learn the skills required to sysadmin a remote Linux server from the commandline.
 
 # Repository
-repo_name: livialima/linuxupskillchallenge
-repo_url: https://github.com/livialima/linuxupskillchallenge
+repo_name: wentao3225/linuxupskillchallenge-zh
+repo_url: https://github.com/wentao3225/linuxupskillchallenge-zh
 edit_uri: blob/master/docs
 
 # Copyright
-copyright: Copyright &copy; 2012-2019 Steve Brorens (@snori74) <br> Open Source since 2020 under the terms of the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+copyright: Copyright &copy; 2012-2019 Steve Brorens (@snori74) <br> Open Source since 2020 under the terms of the Creative Commons Attribution 4.0 International License (CC BY 4.0). <br> 中文翻译版由 wentao3225 维护，译文与勘误同样以 CC BY 4.0 发布。
 
 # Extensions
 markdown_extensions:
@@ -148,25 +148,8 @@ plugins:
 extra:
   annotate:
     json: [.s2]
-  analytics:
-    provider: google
-    property: G-LKF1067ZTR
-  social:
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/linux-upskill-challenge-682046666928685068
-      name: discord chat
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@livia2lima/search?query=linux%20upskill%20challenge
-      name: complimentary videos
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/livialima/
-      name: livialima @linkedin
-    - icon: fontawesome/brands/github
-      link: https://github.com/livialima
-      name: livialima @github
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@livialima
-      name: livialima @fosstodon
+  # 原作者的 Google Analytics（G-LKF1067ZTR）与社交链接已移除，避免站点数据打到上游账号。
+  # 如需启用统计或社交卡片，请在此配置你自己的服务。
 
 # Page tree
 nav:

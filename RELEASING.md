@@ -1,17 +1,19 @@
 # 开源发布清单（RELEASING）
 
 本仓库 fork 自 [livialima/linuxupskillchallenge](https://github.com/livialima/linuxupskillchallenge)，
-改造为中文双语版。公开上线前，把所有"指向原作者"的配置换成你自己的，否则评论、统计和站点元数据都会打到原仓库上。
+改造为中文双语版。**当前状态：已 fork 到 `wentao3225/linuxupskillchallenge-zh`，下列可自动化项已完成。**
 
-## 1. mkdocs.yml
+## 1. mkdocs.yml（已完成）
 
-| 项目 | 现状 | 要改成 |
-| --- | --- | --- |
-| `site_url` | `https://linuxupskillchallenge.org/` | 你的站点域名（如 `https://你的用户名.github.io/仓库名/`） |
-| `repo_name` / `repo_url` / `edit_uri` | livialima/linuxupskillchallenge | 你的仓库 |
-| `extra.analytics` | Google Analytics `G-LKF1067ZTR`（原作者的） | 换成你自己的 property，或整段删掉 |
-| `extra.social` | 指向原作者的 Discord/YouTube/LinkedIn 等 | 换成你的社区链接，或删除 |
-| `copyright` | 原作者版权信息 | 保留原作者署名，可加"中文版由 XXX 维护" |
+| 项目 | 处理 |
+| --- | --- |
+| `site_url` | 已改为 `https://wentao3225.github.io/linuxupskillchallenge-zh/` |
+| `repo_name` / `repo_url` / `edit_uri` | 已改为 wentao3225/linuxupskillchallenge-zh |
+| `extra.analytics` | 原作者的 GA `G-LKF1067ZTR` 已删除（未配置自己的统计） |
+| `extra.social` | 指向原作者的社交链接已删除；如需恢复请填自己的 |
+| `copyright` | 保留原作者署名，追加"中文翻译版由 wentao3225 维护" |
+
+> 若日后把站点迁到自定义域名，只需改 `site_url`；giscus 的 `data-mapping="pathname"` 与目录式 URL 天然兼容。
 
 ## 2. 评论区（overrides/partials/comments.html）
 
