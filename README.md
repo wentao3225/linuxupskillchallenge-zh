@@ -9,8 +9,8 @@
 
 通过命令行学习远程 Linux 服务器的系统管理——一个面向想入行初级 Linux 系统管理员、DevOps 等岗位的人的免费月度课程。**本站为中文双语版：英文原版完整保留，右上角可切换语言。**
 
-- 在线中文版：<https://wentao3225.github.io/linuxupskillchallenge-zh/zh/>
-- 英文原版：<https://wentao3225.github.io/linuxupskillchallenge-zh/>（或上游 <https://linuxupskillchallenge.org/>）
+- 在线中文版：<https://wentao3225.github.io/linuxupskillchallenge-zh/>
+- 英文原版：<https://wentao3225.github.io/linuxupskillchallenge-zh/en/>（或上游 <https://linuxupskillchallenge.org/>）
 
 ## 这个项目是什么
 
@@ -22,17 +22,17 @@
 
 ## 课程内容
 
-* [第 0 天 - 搭建你自己的服务器](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00/)
-  * [AWS 免费套餐](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00-AWS-Free-Tier/) ｜ [Azure 免费额度](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00-Azure-Free-Tier/) ｜ [Google Cloud](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00-Google-Cloud/)
-  * [本地服务器 / 虚拟机](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00-Local-Server/) ｜ [小型 VPS（DigitalOcean/Linode/Vultr）](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00-VPS-small/) ｜ [大型云厂商](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00-VPS-big/)
-* [课程机制与常见问题](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/how-this-works/)
-* [第 1 天 - 认识你的服务器](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/01/) ｜ [第 2 天 - 基础导航](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/02/) ｜ [第 3 天 - 权限加身！](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/03/)
-* [第 4 天 - 安装软件、探索文件结构](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/04/) ｜ [第 5 天 - more 与 less](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/05/) ｜ [第 6 天 - 用 "vim" 编辑](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/06/)
-* [第 7 天 - 服务器与其服务](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/07/) ｜ [第 8 天 - 大名鼎鼎的 "grep" 与其他文本工具](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/08/) ｜ [第 9 天 - 深入网络](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/09/)
-* [第 10 天 - 计划任务](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/10/) ｜ [第 11 天 - 查找文件](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/11/) ｜ [第 12 天 - 传输文件](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/12/)
-* [第 13 天 - 用户与用户组](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/13/) ｜ [第 14 天 - 权限归谁？](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/14/) ｜ [第 15 天 - 深入软件仓库](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/15/)
-* [第 16 天 - 归档与压缩](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/16/) ｜ [第 17 天 - 从源码构建](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/17/) ｜ [第 18 天 - 日志轮转](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/18/)
-* [第 19 天 - inode、符号链接与其他捷径](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/19/) ｜ [第 20 天 - 脚本编写](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/20/) ｜ [第 21 天 - 下一步？](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/21/)
+* [第 0 天 - 搭建你自己的服务器](https://wentao3225.github.io/linuxupskillchallenge-zh/00/)
+  * [AWS 免费套餐](https://wentao3225.github.io/linuxupskillchallenge-zh/00-AWS-Free-Tier/) ｜ [Azure 免费额度](https://wentao3225.github.io/linuxupskillchallenge-zh/00-Azure-Free-Tier/) ｜ [Google Cloud](https://wentao3225.github.io/linuxupskillchallenge-zh/00-Google-Cloud/)
+  * [本地服务器 / 虚拟机](https://wentao3225.github.io/linuxupskillchallenge-zh/00-Local-Server/) ｜ [小型 VPS（DigitalOcean/Linode/Vultr）](https://wentao3225.github.io/linuxupskillchallenge-zh/00-VPS-small/) ｜ [大型云厂商](https://wentao3225.github.io/linuxupskillchallenge-zh/00-VPS-big/)
+* [课程机制与常见问题](https://wentao3225.github.io/linuxupskillchallenge-zh/how-this-works/)
+* [第 1 天 - 认识你的服务器](https://wentao3225.github.io/linuxupskillchallenge-zh/01/) ｜ [第 2 天 - 基础导航](https://wentao3225.github.io/linuxupskillchallenge-zh/02/) ｜ [第 3 天 - 权限加身！](https://wentao3225.github.io/linuxupskillchallenge-zh/03/)
+* [第 4 天 - 安装软件、探索文件结构](https://wentao3225.github.io/linuxupskillchallenge-zh/04/) ｜ [第 5 天 - more 与 less](https://wentao3225.github.io/linuxupskillchallenge-zh/05/) ｜ [第 6 天 - 用 "vim" 编辑](https://wentao3225.github.io/linuxupskillchallenge-zh/06/)
+* [第 7 天 - 服务器与其服务](https://wentao3225.github.io/linuxupskillchallenge-zh/07/) ｜ [第 8 天 - 大名鼎鼎的 "grep" 与其他文本工具](https://wentao3225.github.io/linuxupskillchallenge-zh/08/) ｜ [第 9 天 - 深入网络](https://wentao3225.github.io/linuxupskillchallenge-zh/09/)
+* [第 10 天 - 计划任务](https://wentao3225.github.io/linuxupskillchallenge-zh/10/) ｜ [第 11 天 - 查找文件](https://wentao3225.github.io/linuxupskillchallenge-zh/11/) ｜ [第 12 天 - 传输文件](https://wentao3225.github.io/linuxupskillchallenge-zh/12/)
+* [第 13 天 - 用户与用户组](https://wentao3225.github.io/linuxupskillchallenge-zh/13/) ｜ [第 14 天 - 权限归谁？](https://wentao3225.github.io/linuxupskillchallenge-zh/14/) ｜ [第 15 天 - 深入软件仓库](https://wentao3225.github.io/linuxupskillchallenge-zh/15/)
+* [第 16 天 - 归档与压缩](https://wentao3225.github.io/linuxupskillchallenge-zh/16/) ｜ [第 17 天 - 从源码构建](https://wentao3225.github.io/linuxupskillchallenge-zh/17/) ｜ [第 18 天 - 日志轮转](https://wentao3225.github.io/linuxupskillchallenge-zh/18/)
+* [第 19 天 - inode、符号链接与其他捷径](https://wentao3225.github.io/linuxupskillchallenge-zh/19/) ｜ [第 20 天 - 脚本编写](https://wentao3225.github.io/linuxupskillchallenge-zh/20/) ｜ [第 21 天 - 下一步？](https://wentao3225.github.io/linuxupskillchallenge-zh/21/)
 
 ## 参与贡献
 

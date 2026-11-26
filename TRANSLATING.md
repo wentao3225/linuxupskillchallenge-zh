@@ -11,12 +11,13 @@
 
 ## 文件组织
 
-- 站点使用 [mkdocs-static-i18n](https://ultrabug.github.io/mkdocs-static-i18n/) 插件的 **suffix 模式**：
-  - 英文原文文件**保持原样不动**（`docs/01.md`），方便随时和上游同步；
+- 站点使用 [mkdocs-static-i18n](https://ultrabug.github.io/mkdocs-static-i18n/) 插件的 **suffix 模式**，**默认语言为简体中文**（打开站点根路径即中文，英文在 `/en/`）：
+  - 英文原文加 `.en` 后缀：`docs/01.en.md`；
   - 中文译文加 `.zh` 后缀：`docs/01.zh.md`；
-  - `mkdocs.yml` 中 `nav` 只写英文文件名，中文导航由插件的 `nav_translations` 提供标题。
-- 新增一篇译文时：复制原文为 `NN.zh.md`，翻译，文末补译文页脚，然后跑 `mkdocs build --strict` 验证。
+  - `mkdocs.yml` 中 `nav` 写**不带语言后缀**的文件名（如 `01.md`），插件会解析到对应语言文件；中文导航标题由 `nav_translations` 提供。
+- 新增一篇译文时：复制 `NN.en.md` 为 `NN.zh.md`，翻译，文末补译文页脚，然后跑 `mkdocs build --strict` 验证。
 - 未翻译的页面在中文站点会自动回退显示英文，不会 404，所以翻译可以一篇一篇来。
+- 与上游同步：upstream 新增/修改的是 `docs/*.md`，落到本仓库需改名为 `*.en.md` 并与 `*.zh.md` 对照；上游内容变动不频繁，分叉维护成本可接受。
 
 ## 术语表
 

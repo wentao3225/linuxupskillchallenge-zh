@@ -105,11 +105,8 @@ plugins:
   - i18n:
       docs_structure: suffix
       languages:
-        - locale: en
-          default: true
-          name: English
-          build: true
         - locale: zh
+          default: true
           name: 简体中文
           build: true
           nav_translations:
@@ -140,6 +137,9 @@ plugins:
             Day 20 - Scripting: 第 20 天 - 脚本编写
             What Now?: 接下来呢？
             Day 21 - What's next?: 第 21 天 - 下一步？
+        - locale: en
+          name: English
+          build: true
 
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
