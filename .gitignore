@@ -1,6 +1,9 @@
 # .gitignore
 
 /html/
+site/
+mkdocs-build.log
+.venv/
 
 # python
 .env/

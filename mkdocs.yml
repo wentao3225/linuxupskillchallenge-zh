@@ -37,8 +37,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
@@ -101,6 +101,46 @@ theme:
 
 # Plugins
 plugins:
+  # i18n must come first so it localizes pages before other plugins run
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: zh
+          name: 简体中文
+          build: true
+          nav_translations:
+            Home: 首页
+            Start Here: 从这里开始
+            How this works: 课程机制与常见问题
+            Get Your Own Server: 搭建你自己的服务器
+            Lessons: 每日课程
+            Day 1 - Get to know your server: 第 1 天 - 认识你的服务器
+            Day 2 - Basic navigation: 第 2 天 - 基础导航
+            Day 3 - Power trip!: 第 3 天 - 权限加身！
+            Day 4 - Installing software, exploring the file structure: 第 4 天 - 安装软件、探索文件结构
+            Day 5 - More or less: 第 5 天 - more 与 less
+            Day 6 - Editing with "vim": 第 6 天 - 用 “vim” 编辑
+            Day 7 - The server and its services: 第 7 天 - 服务器与其服务
+            Day 8 - The infamous "grep" and other text processors: 第 8 天 - 大名鼎鼎的 “grep” 与其他文本工具
+            Day 9 - Diving into networking: 第 9 天 - 深入网络
+            Day 10 - Scheduling tasks: 第 10 天 - 计划任务
+            Day 11 - Finding things: 第 11 天 - 查找文件
+            Day 12 - Transferring files: 第 12 天 - 传输文件
+            Day 13 - Users and Groups: 第 13 天 - 用户与用户组
+            Day 14 - Who has permission?: 第 14 天 - 权限归谁？
+            Day 15 - Deeper into repositories: 第 15 天 - 深入软件仓库
+            Day 16 - Archiving and compressing: 第 16 天 - 归档与压缩
+            Day 17 - Build from the source: 第 17 天 - 从源码构建
+            Day 18 - Log rotation: 第 18 天 - 日志轮转
+            Day 19 - Inodes, symlinks and other shortcuts: 第 19 天 - inode、符号链接与其他捷径
+            Day 20 - Scripting: 第 20 天 - 脚本编写
+            What Now?: 接下来呢？
+            Day 21 - What's next?: 第 21 天 - 下一步？
+
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 

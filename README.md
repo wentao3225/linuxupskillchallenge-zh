@@ -15,6 +15,8 @@
 **Linux Upskill Challenge is free and open source — and it always will be.**
 If it helped you and you’d like to support its maintenance, you can do that here: [Donate](https://www.buymeacoffee.com/livialima) or [Sponsor](https://github.com/sponsors/livialima).
 
+> Chinese bilingual edition: see [README.zh-CN.md](README.zh-CN.md) for the Chinese introduction and translated lessons. This fork is based on the upstream course (CC BY 4.0) with translations and errata — see [TRANSLATING.md](TRANSLATING.md).
+
 All core learning materials are accessible year-round. No subscriptions, no registration required - so costs you nothing but your time!
 
 *If you spot any typos or "dead links" simply [raise an issue](https://github.com/livialima/linuxupskillchallenge/issues/new/choose).*
