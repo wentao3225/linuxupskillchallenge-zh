@@ -1,59 +1,49 @@
 <div align="center" width="100%">
-  <h1>Linux Upskill Challenge</h1>
-  <h3>An Introduction to Linux Server Administration</h3>
-  <a href="https://linuxupskillchallenge.org/"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Flinuxupskillchallenge.org&style=for-the-badge&label=LinuxUpskillChallenge.org"></a>
-  <a href="https://programming.dev/c/linuxupskillchallenge"><img alt="Lemmy subscribers" src="https://img.shields.io/lemmy/linuxupskillchallenge%40programming.dev?style=for-the-badge&logo=lemmy&logoColor=white&label=lemmy"></a>
-  <a href="https://www.reddit.com/r/linuxupskillchallenge/"><img alt="Subreddit subscribers" src="https://img.shields.io/reddit/subreddit-subscribers/linuxupskillchallenge?style=for-the-badge&logo=reddit&logoColor=white&label=reddit"></a>
-  <a href="https://discord.gg/linux-upskill-challenge-682046666928685068"><img alt="Discord" src="https://img.shields.io/discord/682046666928685068?label=discord&logo=discord&logoColor=white&style=for-the-badge" /></a></br>
-  <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/livialima/linuxupskillchallenge/master?style=for-the-badge&logo=github&logoColor=white">
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/livialima/linuxupskillchallenge?style=for-the-badge">
-  <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/livialima/linuxupskillchallenge?style=for-the-badge">
-  <img alt="GitHub forks" src="https://img.shields.io/github/forks/livialima/linuxupskillchallenge?style=for-the-badge">
-  <a href="https://github.com/sponsors/livialima"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/livialima?style=for-the-badge&logo=githubsponsors"></a>
+  <h1>Linux 运维进阶挑战</h1>
+  <h3>Linux Upskill Challenge · 中文双语版</h3>
+  <a href="https://wentao3225.github.io/linuxupskillchallenge-zh/"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fwentao3225.github.io%2Flinuxupskillchallenge-zh%2F&style=for-the-badge&label=在线课程"></a>
+  <a href="https://github.com/wentao3225/linuxupskillchallenge-zh"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wentao3225/linuxupskillchallenge-zh?style=for-the-badge&logo=github"></a>
+  <a href="https://github.com/wentao3225/linuxupskillchallenge-zh"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/wentao3225/linuxupskillchallenge-zh?style=for-the-badge"></a>
+  <a href="https://github.com/wentao3225/linuxupskillchallenge-zh/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/wentao3225/linuxupskillchallenge-zh?style=for-the-badge"></a>
 </div>
 
-**Linux Upskill Challenge is free and open source — and it always will be.**
-If it helped you and you’d like to support its maintenance, you can do that here: [Donate](https://www.buymeacoffee.com/livialima) or [Sponsor](https://github.com/sponsors/livialima).
+通过命令行学习远程 Linux 服务器的系统管理——一个面向想入行初级 Linux 系统管理员、DevOps 等岗位的人的免费月度课程。**本站为中文双语版：英文原版完整保留，右上角可切换语言。**
 
-> Chinese bilingual edition: see [README.zh-CN.md](README.zh-CN.md) for the Chinese introduction and translated lessons. This fork is based on the upstream course (CC BY 4.0) with translations and errata — see [TRANSLATING.md](TRANSLATING.md).
+- 在线中文版：<https://wentao3225.github.io/linuxupskillchallenge-zh/zh/>
+- 英文原版：<https://wentao3225.github.io/linuxupskillchallenge-zh/>（或上游 <https://linuxupskillchallenge.org/>）
 
-All core learning materials are accessible year-round. No subscriptions, no registration required - so costs you nothing but your time!
+## 这个项目是什么
 
-*If you spot any typos or "dead links" simply [raise an issue](https://github.com/livialima/linuxupskillchallenge/issues/new/choose).*
+本仓库 fork 自 [livialima/linuxupskillchallenge](https://github.com/livialima/linuxupskillchallenge)，在 upstream 开源课程基础上改造为中英双语版：
 
-* [Website of the course](https://LinuxUpskillChallenge.org)
-* [Full lesson source](https://github.com/livialima/linuxupskillchallenge)
-* [Complementary video playlists](https://www.youtube.com/@livia2lima/search?query=linuxupskillchallenge)
-* [Monthly lessons on Lemmy](https://programming.dev/c/linuxupskillchallenge)
-* [Monthly lessons on Reddit](https://www.reddit.com/r/linuxupskillchallenge/)
-* [Chat with Discord](https://discord.gg/linux-upskill-challenge-682046666928685068)
+- 原课程由 Steve Brorens（@snori74）创作，现由 [Livia Lima](https://github.com/livialima) 维护，以 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 发布；
+- 中文版完成全部 30 篇文档翻译（每课附「本课命令速查」表），并修正了若干内容错误与失效链接（见 [TRANSLATING.md](TRANSLATING.md) 的勘误记录）；
+- 译文与修改同样以 CC BY 4.0 发布，原作者署名保留在站点页脚与版权行。
 
-## READ THIS FIRST!
-[HOW THIS WORKS & FAQ](docs/how-this-works.md)
+## 课程内容
 
-## Table of Contents
+* [第 0 天 - 搭建你自己的服务器](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00/)
+  * [AWS 免费套餐](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00-AWS-Free-Tier/) ｜ [Azure 免费额度](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00-Azure-Free-Tier/) ｜ [Google Cloud](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00-Google-Cloud/)
+  * [本地服务器 / 虚拟机](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00-Local-Server/) ｜ [小型 VPS（DigitalOcean/Linode/Vultr）](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00-VPS-small/) ｜ [大型云厂商](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/00-VPS-big/)
+* [课程机制与常见问题](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/how-this-works/)
+* [第 1 天 - 认识你的服务器](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/01/) ｜ [第 2 天 - 基础导航](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/02/) ｜ [第 3 天 - 权限加身！](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/03/)
+* [第 4 天 - 安装软件、探索文件结构](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/04/) ｜ [第 5 天 - more 与 less](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/05/) ｜ [第 6 天 - 用 "vim" 编辑](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/06/)
+* [第 7 天 - 服务器与其服务](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/07/) ｜ [第 8 天 - 大名鼎鼎的 "grep" 与其他文本工具](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/08/) ｜ [第 9 天 - 深入网络](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/09/)
+* [第 10 天 - 计划任务](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/10/) ｜ [第 11 天 - 查找文件](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/11/) ｜ [第 12 天 - 传输文件](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/12/)
+* [第 13 天 - 用户与用户组](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/13/) ｜ [第 14 天 - 权限归谁？](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/14/) ｜ [第 15 天 - 深入软件仓库](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/15/)
+* [第 16 天 - 归档与压缩](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/16/) ｜ [第 17 天 - 从源码构建](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/17/) ｜ [第 18 天 - 日志轮转](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/18/)
+* [第 19 天 - inode、符号链接与其他捷径](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/19/) ｜ [第 20 天 - 脚本编写](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/20/) ｜ [第 21 天 - 下一步？](https://wentao3225.github.io/linuxupskillchallenge-zh/zh/21/)
 
-* [Day 0](docs/00.md) - **Creating Your Own Server**: how to setup your lab in AWS, Azure, Google Cloud, Digital Ocean and on a local server
-* [Day 1](docs/01.md) - **Get to know your server**: Starting with `ssh`-ing in and some simple commands like: `ls`, `uptime`, `free`, `df -h`, `uname -a`. Extensions on doing passwordless login with public keys and and an `ssh` config file.
-* [Day 2](docs/02.md) - **Basic navigation**: Basic navigation, the "man" pages, file hierarchy
-* [Day 3](docs/03.md) - **Power trip!**: Working with `sudo`, `uptime`, `timezones`, changing your hostname
-* [Day 4](docs/04.md) - **Installing software, exploring the file structure**: Using 'apt' to find and install software. Use of `mc` to explore the filesystem. Looking at the contents of: `/etc/passwd`, `/etc/ssh/sshd_config` and `/var/log/auth.log`
-* [Day 5](docs/05.md) - **More or less...**: Using `more`, `less` and navigating in these. Dotfiles, history, tab completion, and using the `nano` txt editor
-* [Day 6](docs/06.md) - **Editing with "vim"**: Learning `vim`, the minimal knowledge, but also via `vimtutor`
-* [Day 7](docs/07.md) - **The server and its services**: Installing Apache2, stopping and starting, altering the content, reading logs
-* [Day 8](docs/08.md) - **The infamous "grep" and other text processors**: Hands-on with text tools like `grep`, `cat`, `more`, `less`, `cut`, `awk` and `tail` - and piping of course. (and a wave to `awk` and `sed`)
-* [Day 9](docs/09.md) - **Diving into networking**: Looking at open ports with `ss`, and a nod to `netstat`, install `nmap` and test. Install `ufw`, set up, enable and test etc. Discuss security resonsibilities as the sysadmin.
-* [Day 10](docs/10.md) - **Scheduling tasks**: Covering `cron`, `at`, and systemd timers
-* [Day 11](docs/11.md) - **Finding things...**: Finding things with: `locate`, `find`, `grep`, `which`
-* [Day 12](docs/12.md) - **Transferring files**: SFTP, the technology, clients, and copying up and down
-* [Day 13](docs/13.md) - **Users and Groups**: Using `adduser`, `visudo` to setup up a restricted "helper" to manage our host
-* [Day 14](docs/14.md) - **Who has permission?**: Permissions, users, groups, (ACLS and SELinux in the Extension)
-* [Day 15](docs/15.md) - **Deeper into repositories...**: Repositories in more detail, how to enable "Multiverse", the role of PPAs in Ubuntu, enabling and installing from them
-* [Day 16](docs/16.md) - **Archiving and compressing**: Understanding and using `tar` and `gzip`
-* [Day 17](docs/17.md) - **Build from the source**: Installing from source. Discussion, using `wget` to get a tarball, `tar` to extract and then configure, make and install. Discussion of security, maintenance issues.
-* [Day 18](docs/18.md) - **Logs, monitoring and troubleshooting**: Log management and rotation, `logrotate`
-* [Day 19](docs/19.md) - **Inodes, symlinks and other shortcuts**: Inodes, hard links symlinks and `stat`
-* [Day 20](docs/20.md) - **Scripting**: Understanding how scripting work in Linux, the shebang, permissions and $PATH. A couple of simple sample scripts based on the filtering of logs we've been doing. Resources to explore further.
-* [Day 21](docs/21.md) - **What's next?**: Closing the course with some suggestions.
+## 参与贡献
 
-**Thank you for being part of this community and happy Linuxing!**
+- 发现翻译问题或内容错误：开 Issue 或直接提 PR；
+- 新增或修改译文前请阅读 [TRANSLATING.md](TRANSLATING.md)（术语表、风格约定、勘误流程）；
+- 修改英文原文（勘误）时，需同步在 TRANSLATING.md 的勘误记录登记。
+
+## 部署说明
+
+站点由 GitHub Actions 自动构建（`mkdocs gh-deploy` → `gh-pages` 分支）。上线配置清单见 [RELEASING.md](RELEASING.md)（评论区 giscus、统计等可选项目）。
+
+## 许可与署名
+
+课程内容基于 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)：原作者 Steve Brorens（@snori74），现由 Livia Lima（@livialima）维护；中文翻译版由 wentao3225 维护。详见 [LICENSE](LICENSE)。
